@@ -7,8 +7,61 @@ body {
     /*background-image: url(https://glenncorp.com/wp-content/uploads/2017/12/AdobeStock_197079077.jpeg);
     background-position: relative;
     background-repeat: no-repeat;
-    background-size: cover;*/
-    
+    background-size: cover;*/ 
+}
+
+.popup {
+  background-color: #ffffff;
+  width: 420px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  font-family: 'Yantramanav', sans-serif;
+  display: none; 
+  text-align: center;
+}
+
+.popup button {
+  display: block;
+  margin:  0 0 20px auto;
+  background-color: transparent;
+  font-size: 28px;
+  color: #ffffff;
+  background: #95A54E;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup h2 {
+margin-top: -20px;
+margin-bottom: 0;
+}
+
+.popup p {
+  font-size: 12px;
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 25px;
+}
+
+a#Letsgo {
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #95A54E;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 0;
 }
 
 h1 {
