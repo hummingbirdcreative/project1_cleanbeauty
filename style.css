@@ -1,0 +1,91 @@
+body {
+    font-family: 'Yantramanav', sans-serif;
+    min-height: 100vh;
+    vertical-align: middle;
+    margin: 100px;
+    background-color: white;
+    /*background-image: url(https://glenncorp.com/wp-content/uploads/2017/12/AdobeStock_197079077.jpeg);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+}
+
+h1 {
+    position: relative;
+    font-size: 105px;
+    font-weight: lighter;
+    margin-bottom: -25px;
+    padding: 0px;
+}
+
+nav {
+    padding-left: 35px;
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;   
+    color: black;   
+}
+
+a:hover {
+    color: burlywood;
+}
+
+div.card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: grey solid .5px;
+    border-radius: 25px;
+    width: 15rem;
+    height: 25rem;
+    padding: 15px;
+    overflow: hidden;
+    margin: 1rem 1rem;
+    background-color: white;
+}
+   
+.link {
+    text-decoration: none;
+    color: black;
+  }
+  
+h2.brand {
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+
+.product-image {
+    justify-self: center;
+    height: 200px;
+    width: 200px;
+  }
+
+  .product-image::before {
+    content: 'fall back';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    line-height: 500px;
+    background-color: #FDE7E8;
+    height: 225px;
+    overflow: hidden;
+  }
+
+  p#productDescription {
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+            line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+
+
+
