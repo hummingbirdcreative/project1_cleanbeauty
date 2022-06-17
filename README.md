@@ -1,5 +1,5 @@
 # CLEAN BEAUTY
-*A site that makes it easy to find clean beauty products*
+*A simple web application that displays clean beauty products using a makeup API*
 
 # Technologies Used
 * HTML5
