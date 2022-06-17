@@ -1,3 +1,17 @@
+//load modal
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1000 
+    )
+  });
+  
+  document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+  });
+
 //Define Globals  
 const apiUrl = "https://makeup-api.herokuapp.com/api/v1/products.json?bproduct_tags=";
 const cardContainer = document.getElementById("card-container");
