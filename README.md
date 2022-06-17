@@ -9,7 +9,7 @@
 # Screenshots
 
 # Getting Started
-[Click here](www.google.com) to see the deployed app!
+[Click here](https://serene-cascaron-dc9f3f.netlify.app/#) to see the deployed app!
 
 # Future Enhancements
 * Link to brand website
