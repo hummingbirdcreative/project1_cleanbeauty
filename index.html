@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clean Beauty</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Beauty</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="popup">
         <button id="close">&times;</button>
@@ -18,32 +16,77 @@
         <p>
             Search for your new favorite makeup products that are good for you and good for the environment. Check the box of your "clean" preference and then click on the type of makeup you are looking for.
         </p>
-        <a id="Letsgo" href="https://serene-cascaron-dc9f3f.netlify.app/#">Let's Go</a>
     </div>
-    
-    <main>
-    
-            <h1>CLEAN BEAUTY</h1>
-  
-    
-        <nav>
-        <div class="links">
-            <a href="#" id="Blush">Blush</a>
-            <a href="#" id="Bronzer">Bronzer</a>
-            <a href="#" id="Eyebrow">Eyebrow</a>
-            <a href="#" id="Eyeliner">Eyeliner</a>
-            <a href="#" id="Eyeshadow">Eyeshadow</a>
-            <a href="#" id="Foundation">Foundation</a>    
-            <a href="#" id="Lip liner">Lip Liner</a>            
-            <a href="#" id="Lipstick">Lipstick</a>
-            <a href="#" id="Mascara">Mascara</a>
-            <a href="#" id="Nail polish">Nail Polish</a>
-        </div>
-        </nav>
+ 
+  <main>
+    <h1>CLEAN BEAUTY</h1>
+      
+    <nav>
+    <div class="tags">
+      <!--           const tags = ["CertClean", "Chemical Free", "EWG Verified", "EcoCert", "Fair Trade", "Natural", "Non-GMO", "Organic", "USDA Organic", "Vegan"]; -->
+      <label for="tag">
+        CertClean
+        <input name="tag" type="checkbox" value="CertClean" />
+      </label>
+      <label for="tag">
+        Chemical Free
+        <input name="tag" type="checkbox" value="Chemical Free" />
+      </label>
+      <label for="tag">
+        EWG Verified
+        <input name="tag" type="checkbox" value="EWG Verified" />
+      </label>
+      <label for="tag">
+        EcoCert
+        <input name="tag" type="checkbox" value="EcoCert" />
+      </label>
+      <label for="tag">
+        Fair Trade
+        <input name="tag" type="checkbox" value="Fair Trade" />
+      </label>
+      <label for="tag">
+        Natural
+        <input name="tag" type="checkbox" value="Natural" />
+      </label>
+      <label for="tag">
+        Non-GMO
+        <input name="tag" type="checkbox" value="Non-GMO" />
+      </label>
+      <label for="tag">
+        Organic
+        <input name="tag" type="checkbox" value="Organic" />
+      </label>
+      <label for="tag">
+        USDA Organic
+        <input name="tag" type="checkbox" value="USDA Organic" />
+      </label>
+      <label for="tag">
+        Vegan
+        <input name="tag" type="checkbox" value="Vegan" />
+      </label>
+    </div>
 
-    <div id="card-container"></div>
-    </main>
+    <div class="links">
+      <div id="categoryLinks">
+        <a href="#" id="Blush">Blush</a>
+        <a href="#" id="Bronzer">Bronzer</a>
+        <a href="#" id="Eyebrow">Eyebrow</a>
+        <a href="#" id="Eyeliner">Eyeliner</a>
+        <a href="#" id="Eyeshadow">Eyeshadow</a>
+        <a href="#" id="Foundation">Foundation</a>
+        <a href="#" id="Lipliner">Lip Liner</a>
+        <a href="#" id="Lipstick">Lipstick</a>
+        <a href="#" id="Mascara">Mascara</a>
+        <a href="#" id="Nailpolish">Nail Polish</a>
+      </div>
+    </div>
+  </nav>
 
-    <script src="script.js"></script>
+  <div id="card-container">
+  </div>
+  </main>
+ 
+  <script src="script.js"></script>
 </body>
+
 </html>

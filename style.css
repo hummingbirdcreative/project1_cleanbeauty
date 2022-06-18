@@ -51,19 +51,6 @@ margin-bottom: 0;
   line-height: 25px;
 }
 
-a#Letsgo {
-  display: block;
-  width: 150px;
-  position: relative;
-  margin: 10px auto;
-  text-align: center;
-  background-color: #95A54E;
-  border-radius: 20px;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 8px 0;
-}
-
 h1 {
     position: relative;
     font-size: 105px;
@@ -77,6 +64,18 @@ nav {
     position: relative;
 }
 
+div.tags {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+input[type=checkbox] {
+  accent-color: #95A54E;
+}
+
+div#categoryLinks {
+  font-size: 15px;
+}
 
 a {
     text-decoration: none;   
@@ -84,7 +83,7 @@ a {
 }
 
 a:hover {
-    color: #FDE7E8;
+    color: #95A54E;
 }
 
 div.card {
@@ -125,7 +124,7 @@ h2.brand {
     bottom: 0;
     right: 0;
     line-height: 500px;
-    background-color: #FDE7E8;
+    background-color: #95A54E;
     height: 225px;
     overflow: hidden;
   }
