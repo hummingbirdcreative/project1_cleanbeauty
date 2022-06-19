@@ -7,9 +7,9 @@
 * Javascript
 
 # Screenshots
-<img src="images/ScreenWModal.png" alt="ScreenWModal" />
-<img src="images/HomeScreen.png" alt="HomeScreen" />
-<img src="images/ScreenWSearch.png" alt="ScreenWSearch" />
+![ScreenShot](/Images/ScreenWModal.png)
+![ScreenShot](/Images/HomeScreen.png)
+![ScreenShot](/Images/ScreenWSearch.png)
 
 # Getting Started
 [Click here](https://serene-cascaron-dc9f3f.netlify.app/#) to see the deployed app!
