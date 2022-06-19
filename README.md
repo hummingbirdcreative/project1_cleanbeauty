@@ -2,8 +2,8 @@
 *A simple web application that displays clean beauty products using a makeup API*
 
 # Technologies Used
-* HTML5
-* CSS6
+* HTML
+* CSS
 * Javascript
 
 # Screenshots
